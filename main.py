@@ -13,5 +13,3 @@ for i in cities:
     if point_min is None or y < point_min:
         point_min = y
         south_city = i
-
-print(f'Самый южный город - {south_city}')
